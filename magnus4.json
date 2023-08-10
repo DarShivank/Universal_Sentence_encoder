@@ -1,0 +1,388 @@
+
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "speed",
+            "patterns": [
+                "Max speed",
+                "what is the maximum speed",
+                "top speed"
+            ],
+            "responses": [
+                "The max speed it can obtain is 50±3 kmph"
+            ]
+        },
+        {
+            "tag": "loading_cap",
+            "patterns": [
+                "max loading capacity",
+                "what is the maximum loading capacity",
+                "cargo capacity"
+            ],
+            "responses": [
+                "The maximum loading capacity it has is 150kg"
+            ]
+        },
+{
+            "tag": "charge_time",
+            "patterns": [
+                "charge time",
+                "what is time required for charging",
+                "time for full charge"
+            ],
+            "responses": [
+                "The charge time is 6-7 hrs"
+            ]
+        },
+        {
+            "tag": "loan",
+            "patterns": [
+                "EMI",
+                "Can i pay using EMI",
+                "What are policies for an EMI",
+                "Is EMI option available?",
+                "Payment using EMI",
+                "How can I pay",
+                "Payment options"
+                
+            ],
+            "responses": [
+                "Get low-to-zero interest EMIs, with upto 80% financing of the Electric scooter price"
+            ]
+        },
+        {
+            "tag": "warranty",
+            "patterns": [
+                "Warranty",
+                "What is it's warranty",
+                "warranty period",
+                 "Is warranty provided",
+                 "Will i get warranty"
+                
+            ],
+            "responses": [
+                "The Magnus EX comes with a 3+2 extended warranty.Get 3 years/30,000 km standard warranty and additional 2 years/20,000 km extended warranty (chargeable) for your Magnus EX ."
+            ]
+        },
+          {
+            "tag": "Assistance",
+            "patterns": [
+                "Is road side assistance provided",
+                "Assistance",
+                "Road Side assistance",
+                "is help and assistance provided"
+            ],
+            "responses": [
+                "Experience peace of mind by availing RSA at just ?899/year (excl. of GST)! Contact your nearest dealer to discover all the benefits."
+            ]
+        },
+         {
+            "tag": "Design",
+            "patterns": [
+                "How is the design",
+                "design",
+                "Tell about design",
+                "What is the design like",
+                "How is it's design"
+            ],
+            "responses": [
+                "The Magnus EX has a strong body design with a new Instrument panel."     ]
+        },
+        {
+            "tag": "Safety",
+            "patterns": [
+                "How is the safety",
+                "safety",
+                "Tell about safety features",
+                "Safety measures"
+            ],
+            "responses": [
+                "The Magnus EX is optimized for safety and provide a combined braking system, charger upgrade and Side stand sensor."
+           ]
+        },
+
+        {
+            "tag": "Comfort",
+            "patterns": [
+                "How is the comfort",
+                "comfort",
+                "Tell about comfort",
+                "is it comfortable"
+            ],
+            "responses": [
+                "The Magnus EX provides a seamless driving experience with a long leg room, durable shock absorbers and Telescopic suspension."     ]
+        },
+          {
+            "tag": "Performance",
+            "patterns": [
+                "How is the performance",
+                "performance",
+                "Tell about performance"
+            ],
+            "responses": [
+                "The Magnus EX includes a New Reverse mode, a powerfull hub motor and a  0-40 kmph speed in 10 seconds"     ]
+        },
+        {
+            "tag": "distance",
+            "patterns": [
+                "Distance with a single charge?",
+                "How much distance in a single charge?",
+                "Distance in one charge?",
+                "Distance it can travel in one charge?"
+            ],
+            "responses": [
+                "The Magnus EX can travel 80-100 km in a single charge. It also has a removable battery pack."
+            ]
+        },
+        {
+            "tag": "price",
+            "patterns": [
+                "What are the prices?",
+                "What is the cost?",
+                "Cost",
+                "price",
+                "What is the price of Magnus EX",
+                "Give the price",
+                "what is the cost for Magnus EX"
+            ],
+            "responses": [
+                "Enter your State"
+            ]
+        },
+        {
+            "tag": "state",
+            "patterns": [
+                "Delhi","Gujarat", "Maharashtra","Odisha", "Karnataka", "Tamil Nadu","West Bengal", "Uttarakhand", "Uttar Pradesh", "Telangana", "Sikkim", "Rajasthan", "Punjab", "Madhya Pradesh", "Kerala", "Jharkhand", "Jammu and Kashmir", "Himachal Pradesh", "Haryana", "Goa", "NCR","Chhattisgarh", "Bihar", "Andhra Pradesh"   
+       
+            ],
+            "responses": [
+                "Rs 104,900"
+            ]
+        },
+        {
+            "tag": "state2",
+            "patterns": [
+                "Tripura", "Arunachal Pradesh", "Assam", "Manipur", "Meghalaya", "Nagaland"   
+       
+            ],
+            "responses": [
+                "Rs 106,900"
+            ]
+        },
+        {
+            "tag": "color",
+            "patterns": [
+                "What colors are available?",
+                "What is the color?",
+                "Color",
+                "Color of Magnus EX",
+                "Shades of Magnus EX",
+                 "Color options",
+                 "What all colors",
+                 "Shades",
+                 "What all colors is the Magnus EX available in?"
+                
+            ],
+            "responses": [
+                "The Magnus EX comes in 5 iconic colors- Metallic Red, Galactic Grey, Graphite Black, Glacial White and Ocean Blue"
+            ]
+        },
+         {
+            "tag": "benefits",
+            "patterns": [
+                "What are the benefits",
+                "Benefits",
+                "What are advantages",
+                "Benefits of Magnus EX"
+                
+                
+            ],
+            "responses": [
+                "The Magnus EX comes with a 3+2 extended warranty.Get 3 years/30,000 km standard warranty and additional 2 years/20,000 km extended warranty (chargeable) for your Magnus EX"
+            ]
+        },
+         {
+            "tag": "Technical Specifications",
+            "patterns": [
+                "What are Technical Specifications",
+                "Technical Specifications",
+                "What are features",
+                "Features",
+                "Features of Magnus EX",
+                "Specifications of Magnus EX"
+                
+            ],
+            "responses": [
+                "Here are the specifications and features for the Magnus EX-Max speed-50±3 kmph,Max loading capacity-50 kg,Charge time-6 to 7 Hrs...  "
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please ask a question regarding the Magnus EX",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can help you with information regarding the Magnus EX.Feel free to ask questions regarding it!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am a chatbot, and can provide you information about The Magnus EX !"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+              {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+       
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "okay"
+            ]
+        },
+       
+        {
+            "tag": "customer_care",
+            "patterns": [
+                "customer care","email","phone","contanct information","Help me", "I want to contact customer care"
+            ],
+            "responses": [
+                "Please ask your queries on customersupport@greaveselectricmobility.com or call tel:+9118001239262. For more information regarding the Magnus EX, visit https://ampere.greaveselectricmobility.com/magnus-ex"
+            ]
+        }
+        
+    ]
+}
